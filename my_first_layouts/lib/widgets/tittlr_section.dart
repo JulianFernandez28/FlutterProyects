@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class titleSection extends StatelessWidget {
-  const titleSection({super.key});
+class TitleSection extends StatelessWidget {
+  const TitleSection({super.key});
 
   @override
   Widget build(BuildContext context) {

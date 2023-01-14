@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_first_layouts/widgets/button_secttion.dart';
+import 'package:my_first_layouts/widgets/swiper_carousel.dart';
 import 'package:my_first_layouts/widgets/text_widget.dart';
 import 'package:my_first_layouts/widgets/tittlr_section.dart';
 
@@ -14,19 +15,14 @@ class MyApp extends StatelessWidget {
       title: 'My first app',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('My first app'),
+          title: const Text('Lakes'),
         ),
         body: ListView(
-          children:  [
-            Image.asset(
-              'images/lake.jpg',
-              width: 600,
-              height: 240,
-              fit: BoxFit.cover,
-            ),
-            const titleSection(),
-            const buttonSection(),
-            const TextWidget()
+          children: const [
+            SwiperCarousel(),
+            TitleSection(),
+            ButtonSection(),
+            TextWidget()
           ],
         ),
       ),

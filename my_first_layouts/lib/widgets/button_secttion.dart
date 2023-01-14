@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:my_first_layouts/widgets/button_column.dart';
 
 
-class buttonSection extends StatelessWidget {
-  const buttonSection({super.key});
+class ButtonSection extends StatelessWidget {
+  const ButtonSection({super.key});
 
   @override
   Widget build(BuildContext context) {
